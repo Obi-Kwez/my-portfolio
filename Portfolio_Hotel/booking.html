@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"  href="styles.css">
+    <link rel="icon" type="image/png" href="Images/TGAZ_icon.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>The Grand Azure Hotel Booking Page</title>
+  </head>
+
+  <body>
+    <main>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <LI><a href="rooms.html">ROOMS</a> </LI>
+                <li><a href="booking.html">BOOKING</a> </li>
+            </ul>
+        </nav>
+
+        <section class="booking-section-container">
+            <h2>Book Your Stay</h2>
+            <p class="booking-request">Complete the form below and our concierge will contact you shortly.</p>
+
+            <form action="#" method="post" class="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label> 
+                            <input type="text" id="full-name" name="name" placeholder="Your Name Here" required>
+                        </div> 
+                    </div> 
+                <div class="form-row">
+                <div class="form-group">
+                    <label for="check-out">Check-out Date</label>
+                        <input type="date" id="check-out" name="departure" required> 
+                    </div> 
+                    </div>
+                
+                <div class="form-row">   
+                <div class="form-group"><label for="room-type">Select Room Type</label>
+                    <select id="room-type" name="room">
+                        <option value="solo">The Solo Traveler</option>
+                        <option value="executive">The Executive Suite</option>
+                        <option value="family">The Family Penthouse</option> 
+                    </select>
+                    </div> 
+                </div>
+
+                <button type="submit" class="btn-book-final">Confirm Reservation Inquiry</button>
+            </form>
+        </section>
+
+        
+        <footer>
+            <footer class="main-footer">
+                <div class="footer-grid container">
+                <div class="footer-about">The Grand Azure</div>
+                <p>Redefining luxury hospitality since 2026. </p>
+            </div>
+
+            <div class="copyright-bar">
+                <p>&copy;2026 Obinna A. Umekwe, The Grand Azure Hotel. All rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+  </body>
