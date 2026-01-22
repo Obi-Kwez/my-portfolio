@@ -1,8 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Arial', Helvetica, sans-serif;
     font-weight: 100;
-    padding: 20px 10px 0 10px;
+    padding: 20px 5px 0 15px;
     background-color: rgba(166, 76, 142, 0.113)
+}
+
+.container{
+    width:90%;
+    max-width: 1200px;
+    margin:auto;
 }
 
 h1{
@@ -60,7 +70,7 @@ html{ scroll-behavior: smooth;}
 .btn-contact{
     background-color: #042a3994;
     color: white;
-    padding: 8px 20px;
+    padding: 8px 10px;
     border-radius: 25px;
     transition: transform 0.3s, background-color 0.3s;
 }
@@ -188,18 +198,18 @@ p{
 
 .contact-info, .contact-form {
     flex: 1; /* Both sides take up equal space */
-    min-width: 300px;
+    min-width: 40%;
 }
 
 /* Make the inputs look modern */
 .contact-form input, .contact-form textarea {
-    width: 100%;
+    width:93%;
     padding: 15px;
     margin-bottom: 20px;
     border: 2px solid #f0f0f0;
     border-radius: 8px;
     outline: none;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.4s ease;
 }
 
 /* The "Glow" effect when typing */
@@ -208,7 +218,7 @@ p{
 }
 
 .contact-form button {
-    width: 100%; 
+    width: 93%; 
     border: none;
     cursor: pointer;
 }
