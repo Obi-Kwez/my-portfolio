@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .booking-form {
     max-width: 800px;
     margin: 0 auto; /* Centers the form on the page */
