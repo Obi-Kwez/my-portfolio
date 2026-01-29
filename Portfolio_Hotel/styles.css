@@ -105,6 +105,7 @@ h1, h2, .booking-request{
     width: 300px; /* Controlled size */
     margin-bottom: 20px;
     filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
+    justify-content: center;
 }
 
 .room-image{
